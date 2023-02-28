@@ -1,0 +1,101 @@
+
+body {	font-family: Verdana;
+    color: #192666;
+    margin: auto;
+    background-image: url('fondo.jfif');
+    background-size:770px;
+    background-repeat: repeat-y;
+    background-position: center center;
+    width: 770px;}
+
+#cabecera { background-image: url('cabecera.jpg'); 
+        height: 100px;
+        line-height: 100px;
+}
+
+#cabecera span {	font-size: 2em;
+            
+            text-decoration: underline;
+            color: white;
+            float:left; 
+            margin-left: 10px;
+            }
+#busqueda {	display:inline;
+        float:right; 
+        margin-right: 10px;}
+
+.elem {	background-color: white !important; 
+        }
+.elem  a{	color: gold; }
+
+#menu { height: 34px;
+    padding-top: 10px;
+    
+}
+        
+#menu ul {background-color:#253575;
+      height: 20px; 
+     list-style: none;
+     margin: auto;
+     padding: 10px;
+}
+#menu ul li {
+display:inline; 
+background-color: #B5C4E3;
+margin-right: 5px;
+border: 1px solid #0000FF;
+float: left; padding: 7px;
+font-weight: bold;
+font-size: 13px;}
+
+#menu ul li:hover { background-color: #31479B;
+}
+
+#menu ul li:active { color: #FF9000; background-color:white;
+}
+
+#contenido {	line-height: initial;
+}
+
+#principal { width: 530px;
+         display: inline;
+         float:left;
+         margin: 10px;
+}
+
+div h3{ background-color: #B5C4E3;
+  line-height: 200%;
+  text-decoration: underline;
+}
+
+#secundario { width: 200px;
+         display: inline;
+         float:left;
+         margin-top: 10px;
+}
+
+#secundario img { float:left;
+             margin-right: 5px;
+}
+
+#secundario p { font-size: 0.7em;
+}
+
+.idiomas {
+          padding-left: 20px;
+}
+
+.idiomas li { 
+           background-color: #B5C4E3;
+            border-radius: 5%;
+           margin-right: 5px;
+           border: 1px solid #0000FF;
+           float: left;
+           padding: 3px;
+           font-weight: bold;	
+           font-size: 13px;
+}
+
+.idiomas li:hover{ background-color: #31479B;
+                 font-size: 90%;
+}
